@@ -47,6 +47,13 @@ header {
   width: 10%;
 }
 
+.aside-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
 .left-top {
   background-color: lightgray;
 }
@@ -56,4 +63,32 @@ header {
 
 .aside-left h2 {
   font-style: italic;
+}
+
+.div-form {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.self-form {
+  display: block;
+  margin: 20px 20px 0 20px;
+  width: 80%;
+  height: 30px;
+}
+
+.self-check {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-form {
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 0 20px 20px 20px;
+  width: 80%;
+  height: 30px;
 }
