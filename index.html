@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./src/style/index.css">
 </head>
 <body>
-  <header>
+  <header class="nav-header">
     <ul class="home-header">
       <li>Home</li>
       <li>World</li>
@@ -26,13 +26,13 @@
   <main class="main-body">
     <aside class="aside-left">
       <div class="left-top">
-        <h2>
-          About
-        </h2>
-        <p>
+        <header>
+          <h2>About</h2>
+        </header>
+        <article class="about-content">
           Etiam port asem malesuada magna mollis euismod.Cras matt is consectetur purus
           sita met fermentum.Aenean lacinia bibendum null as edcon secte tu
-        </p>
+        </article>
       </div>
       <div class="left-bottom">
         <h2>
@@ -52,7 +52,57 @@
         </ul>
       </div>
     </aside>
-    <article class="main-article">This is article</article>
+    <article class="main-article">
+      <div class="left-article-body">
+        <div class="article-body">
+          <div class="pic-source">
+            <h5>Thumbnail</h5>
+          </div>
+          <header>
+            <h2>Article 1</h2>
+          </header>
+          <article>
+            Donee id élit non m porta gravida at eget metus. Fusee dapibus. telkis ac cursus commodo,
+            tortor mauris condimentum ntbh.
+          </article>
+          <footer class="detail"><a href="#"> view detail>></a></footer>
+        </div>
+        <div class="article-body">
+          <div class="pic-source">
+            <h5>Thumbnail</h5>
+          </div>
+          <header>
+            <h2>Article 3</h2>
+          </header>
+          <article>
+            Donee sed odio dui. Cras Justo odio, dapibus ac facilists in, egestas eget quam.
+            Vestibulum id ligula porta felis euismod semper. Fusee dapibus.
+            tellus ae cursus com modo, tortor maurís condimentum nibh, ut fermentum massa justo sit a met risus.
+          </article>
+          <footer class="detail"><a href="#"> view detail>></a></footer>
+        </div>
+      </div>
+      <div class="right-article-body">
+        <div class="article-body">
+          <div class="pic-source">
+            <h5>Thumbnail</h5>
+          </div>
+          <header>
+            <h2>Article 2</h2>
+          </header>
+          <article>
+            Donee id élit non mi porta gravida at eget met us Fusee dapibus. tellus ae cursus com modo,
+            tortor maurls condimentum mbh. ut fermentum massa justo sit amet nsus. Etiam porta sem malesuada
+            magna mollis euismod. Donee sed odio dm. Donee id elit non mi porta gravida at eget metus.
+            Fusee dapibus. tellus ac cursus commodo, tortor mauns condimentum nlbh. ut fermentum massa justo sit amet risus.
+            Edam porta sem malesuada magna mollis euismod. Donee sed odio dui. Donee id elrt non rm porta gravida at eget metus.
+            Fusee dapibus. tellus ac cursus commodo. tortor mauris condimentum mbh, ut fermentum massa
+            justo sit amet risus. Edam porta sem malesuada magna mollis euismod.
+          </article>
+          <footer class="detail"><a href="#"> view detail>></a></footer>
+        </div>
+      </div>
+    </article>
     <aside class="aside-right">
       <div class="div-form">
         <form>
@@ -67,7 +117,10 @@
       </div>
     </aside>
   </main>
-  <footer>This is footer</footer>
+  <footer class="body-footer">
+    <p class="p1">Advanced CSS homework built by <a href="#">@YourName</a></p>
+    <p class="p2"><a href="#">Back to top</a></p>
+  </footer>
   <script src="src/app.js"></script>
 </body>
 </html>
