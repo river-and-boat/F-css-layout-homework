@@ -32,3 +32,28 @@ header {
   justify-content: space-evenly;
   height: 50px;
 }
+
+.main-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.aside-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10%;
+}
+
+.left-top {
+  background-color: lightgray;
+}
+
+.left-bottom {
+}
+
+.aside-left h2 {
+  font-style: italic;
+}
